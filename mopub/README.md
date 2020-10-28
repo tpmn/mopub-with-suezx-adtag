@@ -1,20 +1,20 @@
 # **SuezX Ad Tag with MoPub**
 
 ## MoPub SDK Integration
-[Android](https://developers.mopub.com/publishers/android/integrate/)  
-[iOS](https://developers.mopub.com/publishers/ios/integrate/)
+- [Android](https://developers.mopub.com/publishers/android/integrate/)
+- [iOS](https://developers.mopub.com/publishers/ios/integrate/)
 
 ## MoPub SDK Initialization
-[Android](https://developers.mopub.com/publishers/android/initialize/)  
-[iOS](https://developers.mopub.com/publishers/ios/initialize/)
+- [Android](https://developers.mopub.com/publishers/android/initialize/)
+- [iOS](https://developers.mopub.com/publishers/ios/initialize/)
 
 ## Banner Ad
-[Android](https://developers.mopub.com/publishers/android/banner/)  
-[iOS](https://developers.mopub.com/publishers/ios/banner/)
+- [Android](https://developers.mopub.com/publishers/android/banner/)
+- [iOS](https://developers.mopub.com/publishers/ios/banner/)
 
 ## Interstitial Ad
-[Android](https://developers.mopub.com/publishers/android/interstitial/)  
-[iOS](https://developers.mopub.com/publishers/ios/interstitial/)
+- [Android](https://developers.mopub.com/publishers/android/interstitial/)
+- [iOS](https://developers.mopub.com/publishers/ios/interstitial/)
 
 ## Mediation: Custom JavaScript Network
 
