@@ -29,7 +29,7 @@ Enter an order name, an advertiser name and a description.
 Click on the order to which you want to add a line item and click **New line item** in the top right corner.
 <img width="1440" alt="mopub_line_tem_1" src="https://user-images.githubusercontent.com/56753557/97270279-3fc2c700-1872-11eb-9cab-fac0f51cffbc.png">
 
-Enter a line item name. Select a type of **Network line item**, a priority of **1** and a network of **[Custom JS network](https://developers.mopub.com/publishers/mediation/networks/custom-networks/)**. Paste the tag below in HTML. Use the SuezX publisher ID and inventory ID provided by your TPMN account manager.
+Enter a line item name. Select a type of **Network line item**, a priority of **1** and a network of **[Custom JS network](https://developers.mopub.com/publishers/mediation/networks/custom-networks/)**. Paste the tag below in HTML. Use the SuezX publisher ID (e.g. "TPMN") and inventory ID (e.g. 99999) provided by your TPMN account manager.
 ~~~
 <div id="div1" style="padding: 0px"></div>
 <script type="text/javascript" src="https://static.tpmn.co.kr/suez_sb/ads.js"></script>
@@ -43,8 +43,8 @@ function callbackSuezAd(status) {
 SuezJS.loadAd({
 divid: "div1",
 adverid: "%eudid!",
-publisherid: YOUR_PUBLISHER_ID_HERE,
-inventoryid: YOUR_INVENTORY_ID_HERE}, callbackSuezAd);
+publisherid: YOUR_PUBLISHER_ID_AS_STRING_HERE,
+inventoryid: YOUR_INVENTORY_ID_AS_INTEGER_HERE}, callbackSuezAd);
 </script>
 ~~~
 <img width="1440" alt="mopub_line_tem_2" src="https://user-images.githubusercontent.com/56753557/97270287-42252100-1872-11eb-8786-a0245fdd6c9c.png">
