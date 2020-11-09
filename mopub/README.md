@@ -32,7 +32,7 @@ Click on the order to which you want to add a line item and click **New line ite
 Enter a line item name. Select a type of **Network line item**, a priority of **1** and a network of **[Custom JS network](https://developers.mopub.com/publishers/mediation/networks/custom-networks/)**. Paste the tag below in HTML. Use the SuezX publisher ID and inventory ID provided by your TPMN account manager.
 ~~~
 <div id="div1" style="padding: 0px"></div>
-<script type="text/javascript" src="https://static.tpmn.co.kr/suez_sb/ads.js></script>
+<script type="text/javascript" src="https://static.tpmn.co.kr/suez_sb/ads.js"></script>
 <script>
 function callbackSuezAd(status) {
     if (status == "ERROR") {
